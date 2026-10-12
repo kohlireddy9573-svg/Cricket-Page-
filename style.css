@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+.site-header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 72px;
+    
+   
+    padding: 12px 20px;
+    color: #fff;
+    background: #21004a;
+}
+
+.site-header h1 {
+    margin: 0;
+    
+    
+    text-align: center;
+}
+
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: fixed;
+    z-index: -1;
+    filter:brightness(0.8);
+}
+
+/* Fixed Hero Text */
+
+.hero-text{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index:-1;
+    filter: brightness(0.9);
+}
+
+.hero-text h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero-text p{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+.coaches-section{
+    width:90%;
+    margin:40px auto;
+}
+
+.coach-grid{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.coach-card{
+    position:relative;
+    width:300px;
+    border:6px solid white;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.coach-card img{
+    width:100%;
+    height:220px;
+    display:block;
+    object-fit:cover;
+}
+
+.coach-info{
+    position:absolute;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    text-shadow:2px 2px 5px black;
+}
+
+.coach-info h3{
+    margin:0;
+    font-size:22px;
+}
+
+.coach-info p{
+    margin:3px 0 0;
+    font-size:18px;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.players-panel {
+    width: 350px;
+    margin: 30px auto;
+}
+
+.players-list {
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background: #f4f4f4;
+    padding: 15px;
+}
+
+
+
+/* Sticky Heading */
+.players-title {
+    position: sticky;
+    top: -15px;             
+    background: white;
+    color: Black;
+    padding: 15px;
+    margin: -15px -15px 20px -15px;
+    text-align: center;
+    z-index: 100;
+}
+
+/* Card */
+.player-card {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
+.player-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.player-card h3 {
+    text-align: center;
+    padding: 15px;
+    color: #333;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.rankings{
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #1a237e;
+}
+
+th,
+td{
+    border: 1px solid #bdbdbd;
+    padding: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th{
+    background-color: #1a237e;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr{
+    background-color: #ffffff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.site-footer {
+    display: grid;
+    gap: 18px;
+    padding: 18px 20px 30px;
+    color: #fff;
+    text-align: center;
+    background: #21004a;
+}
+
+.site-footer h2,
+.site-footer p {
+    margin: 0;
+}
+
+.site-footer h2 {
+    font-size: 24px;
+}
+
